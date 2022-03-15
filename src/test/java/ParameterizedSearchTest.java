@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class ParameterizedSearchTest {
 
     @BeforeEach
-    void precondition() {
+     void precondition() {
         Configuration.browserSize = "1920x1080";
         open("https://gamemag.ru/");
 
@@ -68,7 +68,6 @@ public class ParameterizedSearchTest {
 
 
     }
-
 
 }
 
