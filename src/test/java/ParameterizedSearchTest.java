@@ -30,7 +30,7 @@ public class ParameterizedSearchTest {
 
     }
 
-    @ValueSource(strings = {"Cult of the Lam", "Elden Ring"})
+    @ValueSource(strings = {"Cult of the Lamb", "Elden Ring"})
     @ParameterizedTest(name = "Проверка получения в заголовке поиска \"{0}\"")
     void searchTitleSite(String testData) {
         $("#gm-btn-search").click();
